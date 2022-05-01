@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-size: 12px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 70vmax;
+    height: 40vmax;
+    background-color: hsl(240, 5%, 91%);
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.gambar {
+    width: 35vmax;
+    height: 40vmax;
+}
+.gambar .bg-desktop {
+    width: 60%;
+    height: 110%;
+    position: absolute;
+    bottom: -2vh;
+    left: -12vw;
+}
+.gambar .women {
+    position: absolute;
+    left: -6vw;
+    top: 15vh;
+}
+.center .box {
+    position: absolute;
+    z-index: 999999999;
+    left: 8vw;
+    top: 42vh;
+}
+.tulisan {
+    width: 35vmax;
+    position: absolute;
+    right: 0;
+    top: 15vh;
+}
+.tulisan h1 {
+    font-weight: 700;
+    color: hsl(238, 29%, 16%);
+    font-size: 3em;
+    margin-bottom: 5vh;
+}
+
+
+/* pilihan */
+
+.tulisan .pertama {
+    border-bottom: 1px solid hsl(240, 6%, 50%);
+    padding-bottom: 1.5vh;
+    margin-bottom: 2vh;
+    width: 30vmax;
+}
+.tulisan .pertama .drop h2 {
+    color: hsl(237, 12%, 33%);
+    font-size: 1.3em;
+    transition: .5s;
+}
+.tulisan .pertama .drop h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+.tulisan .pertama .drop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.tulisan .pertama .drop img {
+    padding-right: 1vw;
+    height: 2.5vh;
+    width: 1.5vw;
+    transition: .5s;
+}
+.tulisan .pertama .drop img:hover {
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+.tulisan .pertama p {
+    display: none;
+    font-size: 1.1em;
+    color: hsl(240, 6%, 50%);
+}
+
+
+
+.tulisan .kedua {
+    border-bottom: 1px solid hsl(240, 6%, 50%);
+    padding-bottom: 1.5vh;
+    margin-bottom: 2vh;
+    width: 30vmax;
+}
+.tulisan .kedua .drop h2 {
+    color: hsl(237, 12%, 33%);
+    font-size: 1.3em;
+    transition: .5s;
+}
+.tulisan .kedua .drop h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+.tulisan .kedua .drop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.tulisan .kedua .drop img {
+    padding-right: 1vw;
+    height: 2.5vh;
+    width: 1.5vw;
+    transition: .5s;
+}
+.tulisan .kedua .drop img:hover {
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+.tulisan .kedua p {
+    font-size: 1.1em;
+    color: hsl(240, 6%, 50%);
+}
+
+
+.tulisan .ketiga {
+    border-bottom: 1px solid hsl(240, 6%, 50%);
+    padding-bottom: 1.5vh;
+    margin-bottom: 2vh;
+    width: 30vmax;
+}
+.tulisan .ketiga .drop h2 {
+    color: hsl(237, 12%, 33%);
+    font-size: 1.3em;
+    transition: .5s;
+}
+.tulisan .ketiga .drop h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+.tulisan .ketiga .drop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.tulisan .ketiga .drop img {
+    padding-right: 1vw;
+    height: 2.5vh;
+    width: 1.5vw;
+    transition: .5s;
+}
+.tulisan .ketiga .drop img:hover {
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+.tulisan .ketiga p {
+    display: none;
+    font-size: 1.1em;
+    color: hsl(240, 6%, 50%);
+}
+
+
+
+.tulisan .ketiga {
+    border-bottom: 1px solid hsl(240, 6%, 50%);
+    padding-bottom: 1.5vh;
+    margin-bottom: 2vh;
+    width: 30vmax;
+}
+.tulisan .ketiga .drop h2 {
+    color: hsl(237, 12%, 33%);
+    font-size: 1.3em;
+    transition: .5s;
+}
+.tulisan .ketiga .drop h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+.tulisan .ketiga .drop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.tulisan .ketiga .drop img {
+    padding-right: 1vw;
+    height: 2.5vh;
+    width: 1.5vw;
+    transition: .5s;
+}
+.tulisan .ketiga .drop img:hover {
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+.tulisan .ketiga p {
+    display: none;
+    font-size: 1.1em;
+    color: hsl(240, 6%, 50%);
+}
+
+
+
+.tulisan .keempat {
+    border-bottom: 1px solid hsl(240, 6%, 50%);
+    padding-bottom: 1.5vh;
+    margin-bottom: 2vh;
+    width: 30vmax;
+}
+.tulisan .keempat .drop h2 {
+    color: hsl(237, 12%, 33%);
+    font-size: 1.3em;
+    transition: .5s;
+}
+.tulisan .keempat .drop h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+.tulisan .keempat .drop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.tulisan .keempat .drop img {
+    padding-right: 1vw;
+    height: 2.5vh;
+    width: 1.5vw;
+    transition: .5s;
+}
+.tulisan .keempat .drop img:hover {
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+.tulisan .keempat p {
+    display: none;
+    font-size: 1.1em;
+    color: hsl(240, 6%, 50%);
+}
+
+
+
+.tulisan .kelima {
+    border-bottom: 1px solid hsl(240, 6%, 50%);
+    padding-bottom: 1.5vh;
+    margin-bottom: 2vh;
+    width: 30vmax;
+}
+.tulisan .kelima .drop h2 {
+    color: hsl(237, 12%, 33%);
+    font-size: 1.3em;
+    transition: .5s;
+}
+.tulisan .kelima .drop h2:hover {
+    color: hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+.tulisan .kelima .drop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+.tulisan .kelima .drop img {
+    padding-right: 1vw;
+    height: 2.5vh;
+    width: 1.5vw;
+    transition: .5s;
+}
+.tulisan .kelima .drop img:hover {
+    cursor: pointer;
+    transform: rotateX(180deg);
+}
+.tulisan .kelima p {
+    display: none;
+    font-size: 1.1em;
+    color: hsl(240, 6%, 50%);
+}
